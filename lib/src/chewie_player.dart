@@ -27,12 +27,10 @@ class Chewie extends StatefulWidget {
   const Chewie({
     Key? key,
     required this.controller,
-    required this.teste
   }) : super(key: key);
 
   /// The [ChewieController]
   final ChewieController controller;
-  final int teste;
   @override
   ChewieState createState() {
     return ChewieState();
